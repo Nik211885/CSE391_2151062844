@@ -1,0 +1,111 @@
+.form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-sigin{
+    width: 600px;
+    border: 1px solid black;
+    padding: 0 0 60px 0 ;
+}
+.text-login{
+    text-align: center;
+    padding: 35px;
+    background-color: lightblue;
+}
+h1{
+    font-size: 42px;
+    text-transform: uppercase;
+    padding:  18px 0 30px;
+    color: #007f49;
+}
+select{
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.input-login{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    background-color: white;
+    position: relative;
+}
+label{
+    font-size: 22px;
+}
+
+input:focus{
+    outline: none;
+}
+input[type=checkbox]{
+    width: 16px;
+    position: absolute;
+    top: 0;
+
+}
+.box-login{
+     background-color: white;
+     padding:2px 50px;
+     position: relative;
+}
+.forgot{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    float: right;
+}
+#box-check{
+    padding: 0 25px;
+    font-size: 19px;
+}
+.box{
+    margin-top: -8px;
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+}
+input[type=submit]{
+    background-color: #007f49;
+    cursor: pointer;
+    margin-top: 40px;
+}
+span{
+    padding: 0 20px;
+    margin-top: 5px;
+    width: 500px;
+    color: #e04562;
+    background-color: #f9e4e8;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.infor-login{
+    color:white;
+    font-size: 20px;
+    background-color: red;
+    padding: 5px 0 25px 0;
+    text-align: center;
+    height: 0;
+    border-radius: 20%;
+}
+.infor-change{
+    background-color: green;
+}
+input[type=submit]:hover{
+    background-color: #1b915c;
+}

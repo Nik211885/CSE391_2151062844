@@ -149,14 +149,14 @@ const Form = () => {
                         <label className='name'>
                             Tên đăng nhập
                             <br/><br/>
-                            <input id='login-text' style={{width: "500px",height: "60px",fontSize:"16px",borderRadius:"8px"}} value={name} onChange={(event)=>{setName(event.target.value)}}/>
+                            <input id='login-text' type="text" style={{width: "500px",height: "60px",fontSize:"16px",borderRadius:"8px"}} value={name} onChange={(event)=>{setName(event.target.value)}}/>
                         </label>
                         {errorName?<span>{errorName}</span>:""}
                         <br/><br/>
                         <label className='name'>
                             Mật khẩu
                             <br/><br/>
-                            <input id='login-text' style={{width: "500px",height: "60px",fontSize:"16px",borderRadius:"8px"}} value={key} onChange={(event)=>{setKey(event.target.value)}}/>
+                            <input id='login-text' type="password" style={{width: "500px",height: "60px",fontSize:"16px",borderRadius:"8px"}} value={key} onChange={(event)=>{setKey(event.target.value)}}/>
                             <br/>
                         </label>
                         {errorKey?<span>{errorKey}</span>:""}
